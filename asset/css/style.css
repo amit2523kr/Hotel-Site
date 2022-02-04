@@ -139,7 +139,7 @@
     opacity: 90%;
   }
   100%{
-  transform: translate3d(900px,-300px,0px);
+  transform: translate3d(500px,-300px,0px);
   opacity: 5%;
   }
 }
@@ -154,7 +154,7 @@
   display: flex;
 }
 .tour{
-  width:16.3%;
+  width:16%;
   height:33%;
   border-radius: 4%;
   margin-left:2.5rem;
