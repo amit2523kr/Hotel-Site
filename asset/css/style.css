@@ -8,7 +8,6 @@
   font-size:4rem;
   font-weight: bolder;
   color:white;
-  /* opacity: 80px; */
   opacity:inherit;
   margin-top: -36rem;
   animation-duration: 3s;
@@ -38,9 +37,9 @@
 }
 /* Designing the facilities */
 .fac{
-    width:21%;
-    height:33%;
-    border-radius: 2%;
+    width:17rem;
+    height:12.8rem;
+    border-radius: 0.34rem;
     margin-left:3rem;
     margin-bottom:2rem;
 }
@@ -62,31 +61,32 @@
 .tagline{
   color:black;
   font-weight:bolder;
+  font-size:1.5rem;
 }
 /* Categories in hotel */
 .categ1{
-  margin-left:7%;
-  width: 50%;
+  margin-left:5.3rem;
+  width: 40rem;
   margin-top:0.4rem;
   font-family: "Times New Roman", Times, serif;
 }
 .categ2{
-  margin-left: 7%;
+  margin-left:5.3rem;
   vertical-align:bottom;
-  width: 50%;
+  width: 40rem;
   margin-top:0.4rem;
   font-family: "Times New Roman", Times, serif;
 }
 .categ3{
-  margin-left: 7%;
-  width: 50%;
+  margin-left:5.3rem;
+  width: 40rem;
   margin-top:0.4rem;
   font-family: "Times New Roman", Times, serif;
 }
 .categ4{
-  margin-left: 7%;
+  margin-left: 5.3rem;
   margin-bottom:3.5rem;
-  width: 50%;
+  width:40rem;
   margin-top:0.4rem;
   font-family: "Times New Roman", Times, serif;
 }
@@ -94,7 +94,7 @@
   height:2rem;
   background-color: black;
   color:white;
-  border-radius: 4px;
+  border-radius: 0.3rem;
   border:none;
 }
 .btn1:hover{
@@ -151,16 +151,32 @@
   border-bottom: 1px solid skyblue;
 }
 .santorini{
-  display: flex;
+  width:auto;
+  height:auto;
+  display: inline-block;
+  /* display: flex; */
+  /* border: 1px solid red; */
 }
 .tour{
-  width:16%;
+  /* width:16%;
   height:33%;
-  border-radius: 4%;
-  margin-left:2.5rem;
+  border-radius: 4%; */
+  width:13.4rem;
+  height: 8.5rem;
+  border-radius: 0.3rem;
+  margin-left:2rem;
   margin-bottom:2rem;
-  /* display: flex; */
+  /* display:inline-block; */
 }
+/* @media screen and (max-width: 400px){
+  .tour{
+    width:40%;
+    height: 33%;
+    border-radius: 0.3rem;
+    margin-left:2.5rem;
+    margin-bottom:2rem;
+  }
+} */
 /* Footer part */
 #footer{
     color:white;
@@ -174,7 +190,7 @@
   width:15rem;
   height:2rem;
   box-shadow: none;
-  border-radius:5px;
+  border-radius:0.34rem;
   background-color: #f9ecea;
   border: 1px solid #db3734;
 
@@ -185,7 +201,7 @@
   width:6rem;
   height:2rem;
   box-shadow: none;
-  border-radius:5px;
+  border-radius:0.3rem;
   background-color:rgb(163, 152, 152) ;
   font-weight:700;
   text-align: center;
@@ -198,7 +214,7 @@
 }
 .icon{
   color:white;
-  padding:4px;
+  padding:0.3rem;
   padding-bottom:2rem;
 }
 .icon:hover{
