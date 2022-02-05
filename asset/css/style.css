@@ -184,6 +184,8 @@
     text-align: center;
     padding:2rem;
     cursor: pointer;
+    width:100%;
+    display: inline-block;
 }
 .email{
   border: none;
