@@ -25,6 +25,7 @@
     width: 100%;
   }
 }
+
 #faci{
   background-color:#f3f5f7;
 }
@@ -92,7 +93,7 @@
 }
 .btn1{
   height:2rem;
-  background-color: black;
+  background-color: #0a1121;
   color:white;
   border-radius: 0.3rem;
   border:none;
